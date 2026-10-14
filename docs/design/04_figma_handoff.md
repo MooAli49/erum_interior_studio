@@ -29,10 +29,10 @@ The following eight principles are non-negotiable and must guide all Figma layou
 2. **Restrained Luxury:** Luxury is expressed through generous whitespace, disciplined 8px modular rhythm, and sophisticated editorial typography. Avoid gaudy gold gradients, heavy 3D bevels, decorative swirls, or cheap promotional banners.
 3. **Navy & Gold Anchor:** Ground the experience with deep architectural navy (`#203D73` / `#0E1B33`); deploy warm gold (`#F5A000`) with surgical restraint for focal triggers (CTAs, play buttons, active indicators).
 4. **Integrated Content Ecosystem:** Content is not an isolated blog; every article and video directly surfaces related completed projects and service engagement options.
-5. **Mobile-First Primacy:** Over 70% of inbound client traffic originates from mobile social channels (TikTok, Instagram, Facebook). Mobile screens require zero horizontal overflow, 44px+ touch targets, and sticky direct consultation triggers.
+5. **Mobile-First Primacy:** Mobile traffic represents a primary client acquisition channel due to social media discovery (TikTok, Instagram, Facebook). Mobile screens require zero horizontal overflow, 44px+ touch targets, and sticky direct consultation triggers `[CONFIRMED DESIGN PRIORITY]`.
 6. **Intentional Symmetrical Localization:** Arabic (RTL) is designed as a native architectural layout with custom line-heights and tailored font sizes—never an auto-flipped mirror.
 7. **Accessibility by Default (WCAG 2.1 AA):** High text contrast (minimum 4.5:1), visible focus indicators, readable type hierarchies, and full support for reduced-motion preferences.
-8. **High Performance Framework:** Standardized image aspect ratios (`16:9`, `4:3`, `3:2`, `1:1`, `9:16`) to ensure zero Cumulative Layout Shift (CLS = 0) and predictable asset scaling.
+8. **High Performance Framework:** Standardized image aspect ratios (`16:9`, `4:3`, `3:2`, `1:1`, `9:16`) to target a Cumulative Layout Shift (CLS) of less than 0.1 in accordance with Core Web Vitals standards, supported by responsive image testing across devices.
 
 ---
 
@@ -134,27 +134,33 @@ The following eight principles are non-negotiable and must guide all Figma layou
 
 All 19 pages specified in `docs/design/03_page_wireframes.md` must be designed in Figma across **Desktop (1440px)** and **Mobile (390px)** viewports:
 
-| Priority Tier | Page Name | Page Slug | Core Focus |
-| :--- | :--- | :--- | :--- |
-| **Tier 1 (Core)** | **Home** | `/` | Brand triad, flagship project proof, Render vs. Reality, Process overview, Founder authority, primary lead driver. |
-| | **Projects Listing** | `/projects` | Filterable portfolio matrix (Type, Scope, Render vs. Reality toggle). |
-| | **Project Details** | `/projects/[slug]` | Modular case study template with conditional gallery rendering. |
-| | **Services Listing** | `/services` | 5 service pillars, deliverables matrix, and service FAQs. |
-| | **Service Details** | `/services/[slug]` | Deep-dive scope, deliverables checklist, and pre-filtered related projects. |
-| | **Start Your Project** | `/start-project` | 3-step lead onboarding form, budget tiers, and floorplan dropzone. |
-| **Tier 2 (Authority)**| **Knowledge Hub** | `/knowledge` | Central content index, search bar, and "Engineer's Advice" carousel. |
-| | **Article Details** | `/knowledge/[slug]` | Editorial finishing guide, author card, and related project proof. |
-| | **Video Library** | `/videos` | Dual-format video grid (16:9 Landscape & 9:16 Vertical Reels). |
-| | **Video Details** | `/videos/[slug]` | Responsive player, summary, transcript, and connected project CTA. |
-| | **About ERUM** | `/about` | Studio manifesto, execution philosophy, and craftsmanship gallery. |
-| | **Meet The Engineer** | `/about/engineer` | Eng. Abdelrahman personal brand, credentials, and advice videos. |
-| | **Process** | `/process` | The 12-Step ERUM Standard across 4 execution phases. |
-| | **Contact** | `/contact` | Phone, WhatsApp, Beni Suef location, Google Map embed, and contact form. |
-| **Tier 3 (Utility)** | **Articles Listing** | `/knowledge/articles` | Filterable editorial articles repository. |
-| | **Search Results** | `/search` | Multi-entity search tabs (Projects, Articles, Videos, Services). |
-| | **404 Not Found** | `/404` | Architectural error recovery layout. |
-| | **Privacy Policy** | `/privacy` | Legal policy and data protection terms. |
-| | **Terms & Conditions**| `/terms` | Intellectual property and digital estimate disclaimers. |
+| # | Priority Tier | Page Name | Page Slug | Core Focus | Status |
+| :- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **Tier 1 (Core)** | **Home** | `/` | Brand triad, flagship project proof, Render vs. Reality, Process overview, Founder authority, primary lead driver. | `[CONFIRMED SCOPE]` |
+| 2 | | **Projects Listing** | `/projects` | Filterable portfolio matrix (Type, Scope, Render vs. Reality toggle). | `[CONFIRMED SCOPE]` |
+| 3 | | **Project Details** | `/projects/[slug]` | Modular case study template with conditional gallery rendering. | `[CONFIRMED SCOPE]` |
+| 4 | | **Services Listing** | `/services` | Service discipline showcase (Design, Execution, Project Management [CONFIRMED]; Specific service packages [PROPOSED]). | `[PENDING CONFIRMATION]` |
+| 5 | | **Service Details** | `/services/[slug]` | Deep-dive scope, deliverables checklist, and pre-filtered related projects. | `[PROPOSED TEMPLATE]` |
+| 6 | | **Start Your Project** | `/start-project` | 3-step lead onboarding form, budget tiers, and configurable floorplan dropzone. | `[PROPOSED WIZARD]` |
+| 7 | **Tier 2 (Authority)**| **Knowledge Hub** | `/knowledge` | Central multimedia content index, predictive search, and "Engineer's Advice" carousel. | `[CONFIRMED SCOPE]` |
+| 8 | | **Articles Listing** | `/knowledge/articles` | Dedicated editorial articles archive and finishing guide repository. | `[CONFIRMED SCOPE]` |
+| 9 | | **Article Details** | `/knowledge/[slug]` | Editorial finishing guide, author card, and related project proof. | `[CONFIRMED SCOPE]` |
+| 10 | | **Video Library** | `/videos` | Dual-format video grid (16:9 Landscape & 9:16 Vertical Reels). | `[CONFIRMED SCOPE]` |
+| 11 | | **Video Details** | `/videos/[slug]` | Responsive player, summary, transcript, and connected project CTA. | `[CONFIRMED SCOPE]` |
+| 12 | | **About ERUM** | `/about` | Studio manifesto, execution philosophy, and craftsmanship gallery. | `[CONFIRMED SCOPE]` |
+| 13 | | **Meet The Engineer** | `/about/engineer` | Eng. Abdelrahman personal brand, credentials, and advice videos. | `[CONFIRMED SCOPE]` |
+| 14 | | **Process** | `/process` | The 12-Step ERUM Standard across 4 execution phases. | `[CONFIRMED SCOPE]` |
+| 15 | | **Contact** | `/contact` | Phone, WhatsApp, Beni Suef location, Google Map embed, and contact form. | `[CONFIRMED SCOPE]` |
+| 16 | **Tier 3 (Utility)** | **Search Results** | `/search` | Multi-entity search tabs (Projects, Articles, Videos, Services). | `[CONFIRMED SCOPE]` |
+| 17 | | **404 Not Found** | `/404` | Architectural error recovery layout. | `[CONFIRMED SCOPE]` |
+| 18 | | **Privacy Policy** | `/privacy` | Legal policy and data protection terms. | `[CONFIRMED SCOPE]` |
+| 19 | | **Terms & Conditions**| `/terms` | Intellectual property and digital estimate disclaimers. | `[CONFIRMED SCOPE]` |
+
+### Knowledge & Content Hub Architecture Distinction
+To avoid design ambiguity across the content platform, designers must distinguish between the three distinct knowledge views:
+- **Knowledge Hub (`/knowledge`):** The primary multimedia gateway combining multi-format discovery: featured editorial hero, predictive search, category pills, latest articles, and the "Engineer's Advice" video carousel.
+- **Articles Listing (`/knowledge/articles`):** The dedicated written archive and magazine view focused purely on long-form guides, technical finishing breakdowns, and written advice, equipped with topic filters and pagination.
+- **Article Details (`/knowledge/[slug]`):** The single article reader view optimized for distraction-free reading, inline architectural diagrams, author credentials, related project proof, and contextual lead generation.
 
 ---
 
@@ -170,7 +176,7 @@ All 19 pages specified in `docs/design/03_page_wireframes.md` must be designed i
    ├── Process Preview (4-phase condensed timeline)
    ├── Featured Knowledge & Video Hub (1 hero video + 2 articles)
    ├── Meet The Engineer (Portrait + Engineering philosophy quote)
-   ├── Testimonials (Verified client quote cards)
+   ├── Testimonials (Verified client quote cards [PENDING CLIENT CONFIRMATION])
    ├── Final CTA Banner (Midnight navy background)
    └── Footer (Global)
 
@@ -200,8 +206,8 @@ All 19 pages specified in `docs/design/03_page_wireframes.md` must be designed i
 4. SERVICES LISTING
    ├── Header & Breadcrumbs
    ├── Page Title & Scope Intro
-   ├── 5 Service Pillar Cards with Deliverable Chips
-   ├── Quality & Supervision Standards Block
+   ├── Service Pillar Cards with Deliverable Chips (Core Disciplines [CONFIRMED]; Specific Packages [PROPOSED])
+   ├── Quality & Supervision Standards Block [PROPOSED FRAMEWORK]
    ├── Service FAQs Accordion
    ├── Service Inquiry CTA
    └── Footer
@@ -240,7 +246,18 @@ All 19 pages specified in `docs/design/03_page_wireframes.md` must be designed i
    ├── Consultation Callout
    └── Footer
 
-8. ARTICLE DETAILS
+8. ARTICLES LISTING (Dedicated Article Archive)
+   ├── Header & Breadcrumbs (Home > Knowledge Hub > Articles)
+   ├── Archive Header & Descriptive Intro
+   ├── Topic Filter Chips (All, Interior Design, Finishing, BOQ, Materials)
+   ├── Featured Editorial Guide (Optional hero card)
+   ├── Article Card Grid (3-col desktop / 1-col mobile)
+   ├── Pagination / Load More Controls
+   ├── Related Project Proof Banner
+   ├── Contextual Lead Generation CTA
+   └── Footer
+
+9. ARTICLE DETAILS
    ├── Header & Breadcrumbs
    ├── Article Header (Category, Title, Author: Eng. Abdelrahman, Date, Reading Time)
    ├── 16:9 Hero Image
@@ -253,16 +270,16 @@ All 19 pages specified in `docs/design/03_page_wireframes.md` must be designed i
    ├── Contextual Lead CTA
    └── Footer
 
-9. VIDEO LIBRARY
-   ├── Header & Breadcrumbs
-   ├── Title & Format Toggle (All, 16:9 Landscape, 9:16 Vertical Reels)
-   ├── Topic Filter Chips
-   ├── Featured Video of the Month
-   ├── Responsive Video Grid
-   ├── Video Inquiry CTA
-   └── Footer
+10. VIDEO LIBRARY
+    ├── Header & Breadcrumbs
+    ├── Title & Format Toggle (All, 16:9 Landscape, 9:16 Vertical Reels)
+    ├── Topic Filter Chips
+    ├── Featured Video of the Month
+    ├── Responsive Video Grid
+    ├── Video Inquiry CTA
+    └── Footer
 
-10. VIDEO DETAILS
+11. VIDEO DETAILS
     ├── Header & Breadcrumbs
     ├── Video Player Container (Cinema 16:9 or Smartphone 9:16)
     ├── Video Meta Block (Title, Category, Date)
@@ -273,24 +290,12 @@ All 19 pages specified in `docs/design/03_page_wireframes.md` must be designed i
     ├── Contextual Consultation CTA
     └── Footer
 
-11. START YOUR PROJECT (Lead Onboarding)
-    ├── Header & Breadcrumbs
-    ├── Title & Reassurance Subhead ("Tell Us About Your Space")
-    ├── Trust Badges (Engineer Review, No Spam, Free Initial Call)
-    ├── Step Progress Indicator (Step 1 of 3)
-    ├── Step 1: The Space (Type, Location, Area m²)
-    ├── Step 2: The Scope (Service, Current Status, Budget Tier)
-    ├── Step 3: Contact & Plans (Name, Phone/WhatsApp, File Dropzone)
-    ├── What Happens Next? (3-step timeline)
-    ├── Direct WhatsApp Alternative Action
-    └── Footer
-
 12. ABOUT ERUM
     ├── Header & Breadcrumbs
-    ├── Studio Manifesto
-    ├── Founding Story & Engineering Philosophy
+    ├── Studio Manifesto [PROPOSED COPY]
+    ├── Founding Story & Engineering Philosophy [PENDING CONFIRMATION]
     ├── Core Value Pillars (Precision, Transparency, Material Quality)
-    ├── Operational Reach & Areas Served (Beni Suef & Egypt)
+    ├── Operational Reach & Areas Served (Beni Suef [CONFIRMED]; Greater Cairo [PENDING CONFIRMATION])
     ├── On-Site Craftsmanship Photo Gallery
     ├── Lead CTA
     └── Footer
@@ -299,14 +304,26 @@ All 19 pages specified in `docs/design/03_page_wireframes.md` must be designed i
     ├── Header & Breadcrumbs
     ├── Founder Hero (Portrait, Name, Official Title)
     ├── Engineering Philosophy
-    ├── Verified Credentials & Experience Highlights
+    ├── Verified Credentials & Experience Highlights [PENDING CONFIRMATION]
     ├── Curated Advice Videos
     ├── Selected Projects Directed
     ├── Social Channels Touch Grid
     ├── Direct Consultation CTA
     └── Footer
 
-14. CONTACT
+14. START YOUR PROJECT (Lead Onboarding)
+    ├── Header & Breadcrumbs
+    ├── Title & Reassurance Subhead ("Tell Us About Your Space")
+    ├── Trust Badges (e.g., Direct Engineer Review, Privacy Assurance, Consultation Call) [PROPOSED EXAMPLES]
+    ├── Step Progress Indicator (Step 1 of 3)
+    ├── Step 1: The Space (Type, Location, Area m²)
+    ├── Step 2: The Scope (Service, Current Status, Budget Tier)
+    ├── Step 3: Contact & Plans (Name, Phone/WhatsApp, File Dropzone [Configurable limit])
+    ├── What Happens Next? (3-step timeline)
+    ├── Direct WhatsApp Alternative Action
+    └── Footer
+
+15. CONTACT
     ├── Header & Breadcrumbs
     ├── Title & Direct Contact Prompt
     ├── Direct Channel Cards (Phone, WhatsApp, Email)
@@ -315,26 +332,78 @@ All 19 pages specified in `docs/design/03_page_wireframes.md` must be designed i
     ├── General Inquiries Form
     └── Footer
 
-15. SEARCH RESULTS
+16. SEARCH RESULTS
     ├── Header & Search Query Bar
     ├── Entity Filter Tabs (All, Projects, Articles, Videos, Services)
     ├── Results Card Matrix
     ├── Empty State Recovery Block
     └── Footer
 
-16. 404 NOT FOUND
+17. 404 NOT FOUND
     ├── Header
     ├── Architectural Blueprint Visual
     ├── Clear Recovery Message & Helpful Links
     ├── Search Input
     └── Footer
 
-17. PRIVACY POLICY & 18. TERMS AND CONDITIONS
+18. PRIVACY POLICY
     ├── Header & Breadcrumbs
-    ├── Legal Document Header & Date
-    ├── Formatted Legal Content Body (Container max 680px)
+    ├── Legal Document Header & Last Updated Date
+    ├── Data Collection, Usage, and Floorplan Confidentiality Terms
+    └── Footer
+
+19. TERMS AND CONDITIONS
+    ├── Header & Breadcrumbs
+    ├── Document Header & Last Updated Date
+    ├── Intellectual Property Protection & Estimate Disclaimers
     └── Footer
 ```
+
+### 8.1 Dedicated Blueprint: Articles Listing (`/knowledge/articles`)
+
+* **Page Objective:** Provide an organized, searchable, and authoritative archive of all ERUM written finishing guides, material comparisons, space-planning principles, and engineering advice.
+* **Target Visitor Intent:** Long-form reader, researcher, or prospective client looking for deep-dive technical guidance on finishing their property in Egypt (e.g., porcelain vs. marble, plumbing inspection checklists, gypsum board mistakes).
+* **Section Breakdown & Content Hierarchy:**
+  1. **Header & Breadcrumbs:** Global Header + Breadcrumb trail (`Home > Knowledge Hub > Articles`).
+  2. **Page Title & Intro Block:**
+     - Title: `H1` (*"Finishing & Architectural Guides"*).
+     - Subhead: Editorial introduction framing ERUM's commitment to transparent engineering knowledge.
+     - Integrated Search Bar: Live predictive search filtering articles by keyword.
+  3. **Topic & Category Filters:**
+     - Horizontal pill chips allowing instant filtering: *All Guides*, *Interior Design*, *Finishing & Utilities* (Plumbing, Electrical, Gypsum), *Project Management & BOQ*, *Materials & Sourcing*.
+  4. **Featured Article Hero (Optional):**
+     - Prominent large editorial card highlighting a timely or foundational guide (e.g., *"The Complete Turnkey Finishing Checklist for Residential Villas"*).
+     - Displays cover photo (16:9), category pill, reading time (`6 min read`), full headline, excerpt, and "Read Guide →" button.
+     - *Conditional Rule:* If no article is marked as featured, the standard card grid seamlessly occupies this space without empty gaps.
+  5. **Article Card Grid:**
+     - 3-column grid on desktop (1440px), 2-column on tablet (834px), single-column stack on mobile (390px).
+     - Card Anatomy (`❖ Card / Article`):
+       - Cover image: Aspect ratio `16:9`, `overflow: hidden`, `radius.md`.
+       - Badges: Category pill (`brand.gold.100` background with `brand.gold.700` text) + reading time badge (`14px`, muted text).
+       - Title: `font.size.h4` (`18px`), SemiBold, max 2-line clamp to enforce uniform row heights.
+       - Excerpt: 2-line clamped summary paragraph.
+       - Footer: Publication date (`font.size.body-sm`, muted) and subtle directional arrow.
+  6. **Pagination / Load More Controls:**
+     - Desktop: Accessible numbered pagination (`← Previous  1  2  3  Next →`) with active state (`brand.navy.700` fill).
+     - Mobile: "Load More Articles" button to reduce tapping friction on touchscreens.
+  7. **Related Projects & Proof Callout:**
+     - Full-width callout strip connecting theory to practice: *"Every guide we write is based on real site execution. Explore our completed projects to see these standards in reality."* with direct link to Portfolio.
+  8. **Contextual Lead Generation CTA Banner:**
+     - Midnight navy surface (`#0E1B33`) prompting inquiries: *"Have a specific finishing or design question about your property? Speak directly with our engineering team."* with button to `/start-project`.
+  9. **Footer:** Global Footer.
+* **Desktop & Mobile Behavior:**
+  - *Desktop (1440px):* 3-column card grid with `32px` gutters; category chips aligned horizontally with active indicator.
+  - *Mobile (390px):* Single-column full-width cards; category chips pan horizontally with touch scrolling (`overflow-x: auto; scrollbar-width: none;`); search bar occupies full width.
+* **Arabic (RTL) & English (LTR) Requirements:**
+  - Directional symmetry preserved; category chips anchor to inline-start edge; reading time badge positions to the inline-end edge; card arrows flip direction (`←` in Arabic, `→` in English).
+* **Accessibility Requirements:**
+  - Semantic `<main>` landmark with internal `<article>` tags for each card; search input has clear `<label>` and ARIA search role; pagination controls implement `aria-current="page"` and `aria-label="Pagination"`.
+* **Required Content & Assets:**
+  - Initial launch inventory of approved article drafts, high-resolution 16:9 photography for covers, confirmed author attribution to Eng. Abdelrahman Abdelrazek.
+* **Dynamic Content Requirements:**
+  - Live query against CMS `articles` collection; URL parameters update dynamically upon category selection (e.g., `?category=finishing`) to allow direct bookmarking and SEO indexing.
+* **Open Decisions:**
+  - Final client confirmation on initial launch article count and decision between numbered pagination versus infinite scroll.
 
 ---
 
@@ -380,7 +449,7 @@ Figma designers must build these components in a dedicated `❖ Components` fram
 - `❖ Input / Select`: `48px` height, dropdown chevron, native select styling.
 - `❖ Input / Textarea`: Min height `120px`, resize handle disabled.
 - `❖ Pill / SegmentedControl`: Radio toggle chips for Service Type and Budget Ranges (`44px` touch height; selected state = solid navy background).
-- `❖ Dropzone / FileUpload`: Dashed border (`2px dashed #E5E7EB`), blueprint icon, drag-and-drop prompt, max 25MB label.
+- `❖ Dropzone / FileUpload`: Dashed border (`2px dashed #E5E7EB`), blueprint icon, drag-and-drop prompt, configurable max file size label (proposed initial limit: 25MB, pending technical and client decisions) `[PROPOSED CONFIGURATION]`.
 
 ### 5. Buttons & Controls
 - `❖ Button / Primary (Navy)`: Background `#203D73`, text `#FFFFFF`, radius `6px`.
@@ -464,6 +533,9 @@ Until official client assets are delivered, Figma designers must observe these s
 | **CD-03** | **Font Family Approval** | `[PROPOSED CANDIDATE]` | Sign-off on Plus Jakarta Sans + Alexandria. |
 | **CD-04** | **Lead Form Step Model** | `[PROPOSED: 3-STEP WIZARD]` | Single-page vs. multi-step form design. |
 | **CD-05** | **Numeral Format in Arabic** | `[PENDING CLIENT CONFIRMATION]` | Western (1, 2, 3) vs. Eastern Arabic (١، ٢، ٣) numerals for areas/dimensions. |
+| **CD-06** | **Trust Badges & Customer Promises** | `[PENDING CLIENT CONFIRMATION]` | Confirm specific promises displayed on lead form (e.g. Direct Engineer Review, Free Initial Call). |
+| **CD-07** | **File Upload Limit & Supported Types** | `[PENDING TECHNICAL / CLIENT CONFIRMATION]`| Confirm max upload size (proposed 25MB) and whether CAD/DWG files are accepted alongside PDF/images. |
+| **CD-08** | **Final Service List & Scope** | `[PENDING CLIENT CONFIRMATION]` | Confirm whether Custom Furniture and Exterior Design are separate standalone pillars. |
 
 ---
 

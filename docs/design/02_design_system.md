@@ -32,7 +32,7 @@ The ERUM Design System provides a single, unified source of design truth for the
 | **5. Mobile-First Primacy** | The majority of client acquisition starts on mobile devices via social video channels. | 44px+ touch targets, single-column reading ergonomics, sticky mobile CTA bars, zero horizontal overflow. |
 | **6. Intentional Bilingual Design** | Arabic RTL is designed intentionally from cultural and spatial perspectives, not auto-mirrored. | Script-specific typographic scale, balanced line-heights, tailored punctuation, and preserved numbers. |
 | **7. Accessibility by Default** | High-contrast text, visible focus rings, keyboard navigability, and reduced-motion support. | WCAG 2.1 AA compliance across all color token combinations; semantic HTML structuring. |
-| **8. Performance-Driven Polish** | Zero layout shifts, efficient modern image containers, and lightweight micro-interactions. | Standardized aspect ratios to eliminate CLS, CSS-driven hardware-accelerated animations. |
+| **8. Performance-Driven Polish** | Target Core Web Vitals excellence (CLS < 0.1), efficient modern image containers, and lightweight micro-interactions. | Standardized aspect ratios to minimize layout shifts, responsive image testing across devices, CSS-driven hardware-accelerated animations. |
 
 ---
 
@@ -451,7 +451,7 @@ The footer serves as the architectural grounding of the digital experience, util
 
 ## 18. Image Aspect Ratios
 
-To ensure total layout stability and eliminate **Cumulative Layout Shift (CLS = 0)**, all image containers must enforce fixed proportional aspect ratios.
+To ensure layout stability and target **Cumulative Layout Shift (CLS < 0.1)** in accordance with Core Web Vitals standards, all image containers must enforce fixed proportional aspect ratios and explicit dimension attributes.
 
 | Ratio Token | Proportion | Application |
 | :--- | :--- | :--- |

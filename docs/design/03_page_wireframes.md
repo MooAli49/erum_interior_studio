@@ -550,7 +550,7 @@ All pages share a standardized global frame:
 * **Section Order:**
   1. Header
   2. Page Title & Value Reassurance (*"Tell Us About Your Space — Let's Build It Right"*)
-  3. Trust & Privacy Badges (No Spam, Direct Engineer Review, Free Initial Consultation)
+  3. Trust & Privacy Badges (e.g., Direct Engineer Review, Client Privacy Assurance, Preliminary Feasibility Call) `[PROPOSED EXAMPLES - PENDING CLIENT CONFIRMATION OF CUSTOMER PROMISES]`
   4. The Project Onboarding Form (Personal, Project, Scope, Budget, Description, File Upload)
   5. What Happens Next? (3-Step Reassurance: Review → WhatsApp Call → Site Visit)
   6. Alternative Contact Quick-Links (Direct WhatsApp & Phone for urgent inquiries)
@@ -873,7 +873,7 @@ The "Start Your Project" onboarding flow is the primary business conversion mech
 | **3. Service Scope** | Required Service | Checkbox Pills | Required | Full Design & Execution, Interior Design Only, Execution Only, Consultation. |
 | | Estimated Budget | Select / Radio | Optional | Transparent ranges (e.g., `< 500k EGP`, `500k–1M EGP`, `1M–2.5M EGP`, `2.5M+ EGP`, `To be determined`). |
 | **4. Project Vision** | Project Description | Textarea | Optional | Free text placeholder: *"Tell us about your space, preferred style, or timeline."* |
-| | File Upload | Dropzone | Optional | Accepts PDF, JPG, PNG, DWG/CAD (Max 25MB total). Reassures client confidentiality. |
+| | File Upload | Dropzone | Optional | Accepts PDF, JPG, PNG, DWG/CAD (Configurable proposed limit: 25MB, pending technical and client decisions). Reassures client confidentiality. |
 
 #### Architectural Trade-Off Analysis: Multi-Step vs. Single-Page Form
 
