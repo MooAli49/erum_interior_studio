@@ -397,15 +397,16 @@ Lead generation ("Start Your Project") is ERUM's primary business conversion goa
 - **Scroll State:** Transitions to sticky white background (`#FFFFFF`) with `backdrop-filter: blur(8px)` and `shadow.sm`.
 - **Layout Architecture:**
   - *Left (LTR) / Right (RTL):* Official ERUM logo mark (height: `44px`).
-  - *Center:* Primary navigation links (`font.size.body-md`, Medium weight):
+  - *Center:* Primary navigation links (`font.size.body-md`, Medium weight) `[PROPOSED NAVIGATION]`:
     1. Projects
     2. Services
-    3. Process
-    4. Knowledge Hub
-    5. About ERUM
+    3. About
+    4. Knowledge
+    5. Contact
   - *Right (LTR) / Left (RTL):* Utility group:
     - Language switcher pill (`AR` / `EN` toggle button).
     - Primary CTA Button: "Start Your Project" (Accent Gold or Navy variant).
+  - *Navigation Rationale:* Keeping the top navigation focused on 5 items prevents visual crowding on intermediate desktop screens (1024px–1280px) and maintains symmetrical breathing room. *Process* and *Meet The Engineer* are prominently integrated into the Home page, contextual project/service deep links, and the global footer.
 
 ### 16.2 Mobile Navigation (Viewport < 1024px)
 - **Bar Height:** `64px` sticky header.

@@ -1,7 +1,7 @@
 # ERUM Website Documentation Index
 
 ## Project State
-**Current Phase:** Brand Foundation & Design System (Pre-Figma / Pre-Implementation)
+**Current Phase:** Design Specification & Figma Handoff (Pending Client Validation & Asset Collection)
 
 ---
 
@@ -19,6 +19,7 @@
 7. [Brand Foundation](design/01_brand_foundation.md) — Brand positioning, personality, visual direction, preliminary color palette, typography candidates, photography art direction, and client validation checklist.
 8. [Design System Specification](design/02_design_system.md) — Comprehensive UI tokens (colors, typography, spacing, radius, shadows), component states, card patterns, form controls, navigation, RTL/LTR layout rules, and accessibility standards.
 9. [Wireframes & Page Structure](design/03_page_wireframes.md) — Structural architecture, section hierarchies, responsive wireframes, modular templates, and user flows across all 19 platform pages.
+10. [Figma Design Handoff](design/04_figma_handoff.md) — UI design specifications, reusable component inventory, viewport frames, 11-step design sequence, and frontend handoff guidelines.
 
 ---
 
@@ -31,9 +32,11 @@ Information Architecture & Content Hub (Complete)
        ↓
 Brand Foundation & Design System Specification (Complete)
        ↓
-Wireframing & Page Structure Specification (Current Phase - Complete)
+Wireframing & Page Structure Specification (Complete)
        ↓
-Client Validation & Asset Collection (Next Step)
+Figma Handoff Specification (Current Phase - Complete)
+       ↓
+Client Validation & Asset Collection (In Progress - Pending Client Approval)
        ↓
 Figma High-Fidelity UI Design (Bilingual AR/EN)
        ↓

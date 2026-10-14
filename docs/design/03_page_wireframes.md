@@ -29,7 +29,7 @@ All pages share a standardized global frame:
 ┌────────────────────────────────────────────────────────────────────────┐
 │ [TOP UTILITY BAR - Optional on Desktop: Working Hours | Direct Phone]  │
 ├────────────────────────────────────────────────────────────────────────┤
-│ [BRAND LOGO]      [Projects  Services  Process  Knowledge  About]     │
+│ [BRAND LOGO]      [Projects  Services  About  Knowledge  Contact]      │
 │                   [Language Switch: AR/EN]  [CTA: Start Your Project]   │
 ├────────────────────────────────────────────────────────────────────────┤
 │                                                                        │
@@ -45,12 +45,18 @@ All pages share a standardized global frame:
 ### Global Header Specifications
 - **Desktop (≥ 1024px):** Fixed height (80px), transparent over hero or solid `#FFFFFF` on scroll (`backdrop-filter: blur(8px)`).
   - *Start:* Primary Brand Lockup (Monogram + Wordmark + "Interior Studio").
-  - *Center:* Primary Navigation Links (Projects, Services, Process, Knowledge Hub, About).
+  - *Center:* Primary Navigation Links `[PROPOSED NAVIGATION]`:
+    1. Projects
+    2. Services
+    3. About
+    4. Knowledge
+    5. Contact
   - *End:* Language Switcher (`AR` / `EN`) + High-contrast CTA Button ("Start Your Project").
+  - *Navigation Placement Rationale:* In accordance with `docs/02_information_architecture.md`, top-level desktop navigation is limited to 5 primary destinations plus the CTA. *Process* and *Meet The Engineer* are featured within key page sections (Home, Services, About) and footer navigation rather than crowding the main header.
 - **Mobile (< 1024px):** Sticky 64px bar.
   - *Start:* Compact brand mark (height 32px).
   - *End:* WhatsApp direct-action icon button (`44px × 44px` touch target) + Hamburger Menu Trigger (`48px × 48px`).
-- **Mobile Menu Drawer:** Full-screen midnight navy (`#0E1B33`) surface. Large accessible typographic links (`font.size.h2`), language toggle, phone, WhatsApp, and social media channels.
+- **Mobile Menu Drawer:** Full-screen midnight navy (`#0E1B33`) surface. Accessible typographic links to all primary pages (Projects, Services, About, Knowledge, Contact, Process, Meet The Engineer), language toggle, phone, WhatsApp, and social media channels.
 
 ### Global Footer Specifications
 - Deep midnight navy surface (`#0E1B33`) anchoring every page.
@@ -92,14 +98,14 @@ All pages share a standardized global frame:
   10. Final Call to Action
   11. Footer (Global)
 * **Section Purpose & Required Content:**
-  * *Hero:* Single cinematic hero project image or slow ambient video reel, primary value headline (*"Architectural Design. Precision Execution. Guaranteed Reality."*), sub-headline clarifying scope in Beni Suef and Egypt, dual CTAs ("Explore Selected Projects" and "Start Your Project").
+  * *Hero:* Single cinematic hero project image or slow ambient video reel, primary value headline (*"Architectural Design · Turnkey Execution · Project Delivery"* `[PROPOSED MARKETING HEADLINE]`), sub-headline clarifying scope in Beni Suef and Egypt `[PROPOSED - PENDING CLIENT CONFIRMATION OF SCOPE]`, dual CTAs ("Explore Selected Projects" and "Start Your Project").
   * *Selected Projects:* 3–4 flagship real projects highlighting diverse categories (Residential Villa, Commercial, Administrative), project metadata chips (Location, Area m², Scope).
   * *Core Triad:* 3 distinct visual cards articulating Interior Design (3D space planning), Turnkey Execution (craftsmanship, materials), and Project Management (BOQ, timelines).
   * *Design to Reality:* Interactive or side-by-side comparison illustrating a 3D visualization alongside the finished space photography.
   * *Process Preview:* Linear milestone strip condensing the 12-step journey into 4 digestible phases (Consultation → Design → Execution → Handover).
   * *Featured Knowledge:* 1 featured video explainer + 2 high-impact articles addressing common finishing pitfalls.
   * *Meet The Engineer:* Authentic portrait of Eng. Abdelrahman, short engineering bio, philosophy quote, and direct link to full profile.
-  * *Testimonials:* Quotes from real property owners referencing budget adherence, quality of finishes, and peace of mind.
+  * *Testimonials:* Sample quote placeholders only; real quotes from verified property owners citing project experience `[PENDING CLIENT CONFIRMATION AND CLIENT PERMISSION]`.
   * *Final CTA:* Full-width midnight navy banner driving consultation inquiries.
 * **Proposed Components:** `HeroBanner`, `ProjectGridCard`, `TriadFeatureCard`, `RenderVsRealityWidget`, `ProcessTimeline`, `ContentCard`, `EngineerBioCard`, `TestimonialCarousel`, `CtaBanner`.
 * **Primary & Secondary CTAs:**
@@ -131,15 +137,15 @@ All pages share a standardized global frame:
   2. Page Title & Editorial Manifesto
   3. The ERUM Story & Founding Vision
   4. Core Values & Execution Philosophy (Precision, Transparency, Material Integrity)
-  5. Areas Served & Operational Reach (Beni Suef, Greater Cairo, Regional Egypt)
+  5. Areas Served & Operational Reach (Beni Suef `[CONFIRMED]`; Greater Cairo & Regional Egypt `[PENDING CLIENT CONFIRMATION]`)
   6. Studio & Site Craftsmanship Gallery
   7. Team & Craftspeople Culture
   8. Lead CTA
   9. Footer
 * **Section Purpose & Required Content:**
-  * *Manifesto:* Deep narrative statement on eliminating the friction between architectural vision and contractor execution.
-  * *Founding Story:* Genesis of the studio, founded to bring structural engineering rigor to luxury interior finishing.
-  * *Values:* 3–4 pillar cards detailing realistic BOQs, no hidden costs, rigorous material testing, and scheduled milestone sign-offs.
+  * *Manifesto:* Narrative statement addressing the gap between architectural design and contractor execution `[PROPOSED DRAFT]`.
+  * *Founding Story:* Genesis of the studio, bringing engineering discipline to interior finishing `[PROPOSED - PENDING CLIENT CONFIRMATION OF COMPANY HISTORY]`.
+  * *Values:* 3–4 pillar cards detailing realistic BOQs, transparent costing, material verification, and scheduled milestone sign-offs.
   * *Craftsmanship Gallery:* 4–6 authentic photos of on-site joinery, gypsum framing, electrical cabling, and stone installation.
 * **Proposed Components:** `PageHeader`, `NarrativeBlock`, `ValuePillarCard`, `PhotoGridGallery`, `RegionalCoverageMap`, `CtaBanner`.
 * **Primary & Secondary CTAs:**
@@ -150,7 +156,7 @@ All pages share a standardized global frame:
 * **Responsive Considerations:** 2-column narrative collapses to comfortable single-column reading on tablet and mobile (`container.md`).
 * **RTL/LTR Considerations:** Layout symmetry preserved; quotes mirrored with correct typographical quotation marks (`« ... »` for Arabic).
 * **Accessibility Considerations:** All craftsmanship gallery images require descriptive alt text detailing the specific construction trade shown.
-* **SEO Considerations:** `H1`: "About ERUM Interior Studio — Architecture, Execution & Turnkey Finishing".
+* **SEO Considerations:** `H1`: "About ERUM Interior Studio — Architecture, Execution & Turnkey Finishing";
 * **Dependencies & Open Questions:**
   - `[PENDING CLIENT CONFIRMATION]`: Official company founding year, legal entity name, and full company biography.
 
@@ -173,7 +179,7 @@ All pages share a standardized global frame:
 * **Section Purpose & Required Content:**
   * *Profile Header:* High-resolution portrait, full Arabic name (م. عبد الرحمن عبد الرازق), English name (Eng. Abdelrahman Abdelrazek), official title.
   * *Philosophy:* Personal commitment to honesty in finishing, protecting client investments, and architectural innovation.
-  * *Credentials:* Verified architectural/engineering background, specialized certifications, years of practical site supervision experience.
+  * *Credentials:* Verified architectural/engineering degree, certifications, and practical site supervision experience `[PENDING CLIENT CONFIRMATION - Do not invent academic degrees or credentials]`.
   * *Video Advice:* 2–3 hand-picked short-form or long-form videos showing the engineer explaining materials on site.
   * *Selected Projects:* 2 project cards personally highlighted by the founder.
 * **Proposed Components:** `FounderHero`, `CredentialBadgeGrid`, `VideoEmbedCard`, `ProjectGridCard`, `SocialChannelLinks`, `CtaBanner`.
@@ -203,7 +209,7 @@ All pages share a standardized global frame:
   2. Page Header & Scope Overview
   3. Interactive Service Category Grid
   4. Service Bundles (Design Only vs. Full Turnkey Design + Execution)
-  5. The ERUM Quality Guarantee (Materials, BOQ, Supervision)
+  5. Quality & Supervision Standards `[PROPOSED FRAMEWORK - PENDING CLIENT CONFIRMATION]`
   6. Service FAQ Accordion
   7. Service Inquiry CTA
   8. Footer
@@ -861,7 +867,7 @@ The "Start Your Project" onboarding flow is the primary business conversion mech
 | | WhatsApp Number | Tel | Optional | Checkbox: "Same as phone number" to reduce typing. |
 | | Email Address | Email | Optional | Validates email syntax; autocomplete `email`. |
 | **2. Project Details**| Project Type | Select / Pills | Required | Residential Villa, Duplex, Apartment, Commercial, Office, Clinic. |
-| | Project Location | Select / Text | Required | Beni Suef, New Cairo, Sheikh Zayed, Other Egyptian Governorates. |
+| | Project Location | Select / Text | Required | Beni Suef, New Cairo, Sheikh Zayed, Other Egyptian Governorates `[Proposed location options pending client confirmation]`. |
 | | Approximate Area | Number | Required | Unit: m²; numerical keypad on mobile. |
 | | Current Project Status| Radio Pills | Required | Key Received (Ready to Start), Under Construction, Off-Plan / Future. |
 | **3. Service Scope** | Required Service | Checkbox Pills | Required | Full Design & Execution, Interior Design Only, Execution Only, Consultation. |
@@ -912,7 +918,7 @@ graph TD
     A[Social Media Ad / Instagram Post] -->|Click Link| B[Flagship Project Details Page]
     B -->|Review Renders & Built Photos| C[Notice Quality of Execution]
     C -->|Click Related Service Tag| D[Service Details Page: Turnkey Execution]
-    D -->|Read Deliverables & Guarantee| E[Click Primary CTA: Start Your Project]
+    D -->|Read Deliverables & Standards| E[Click Primary CTA: Start Your Project]
     E -->|Pre-filled Service Scope| F[Complete Lead Form]
     F -->|Submission| G[Success Screen & WhatsApp Confirmation]
 ```

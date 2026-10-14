@@ -2,7 +2,7 @@
 
 ## Current project state
 
-**Phase:** Brand Foundation & Design System Specification
+**Phase:** Design Specification & Figma Handoff (Pending Client Validation & Asset Collection)
 
 ## Documentation
 
@@ -18,6 +18,7 @@
 7. [Brand Foundation](docs/design/01_brand_foundation.md)
 8. [Design System Specification](docs/design/02_design_system.md)
 9. [Wireframes & Page Structure](docs/design/03_page_wireframes.md)
+10. [Figma Design Handoff](docs/design/04_figma_handoff.md)
 
 ## Documentation Hub
 For full index and workflow status, see [docs/README.md](docs/README.md).
@@ -25,5 +26,5 @@ For full index and workflow status, see [docs/README.md](docs/README.md).
 ## Workflow
 
 Discovery → Content Inventory → Sitemap / User Flows → Brand Foundation & Design Tokens → Wireframes & Structure →
-Client Validation & Asset Collection → Figma UI → Development → QA → Launch
+Figma Handoff Specification → Client Validation & Asset Collection (In Progress) → Figma UI → Development → QA → Launch
 

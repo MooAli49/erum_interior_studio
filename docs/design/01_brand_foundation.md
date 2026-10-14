@@ -29,7 +29,7 @@ This document serves as the bridge between the project requirements (`docs/01_re
 | **Brand Name (Arabic)** | إي روم إنتيريور ستوديو / إرم للتصميم الداخلي والتنفيذ | `[PENDING CLIENT CONFIRMATION]` *(Exact Arabic legal/commercial spelling)* |
 | **Founder & Lead** | Eng. Abdelrahman Abdelrazek (Interior Design & Execution Engineer) | `[CONFIRMED]` |
 | **Core Discipline** | Interior Design, Execution & Turnkey Contracting, Architectural Project Management | `[CONFIRMED]` |
-| **Geographic Base** | Beni Suef, Egypt (with expanding reach across Egypt) | `[CONFIRMED / SCOPE PENDING]` |
+| **Geographic Base** | Beni Suef, Egypt `[CONFIRMED]`; Regional expansion across Egypt `[PENDING CLIENT CONFIRMATION]` |
 | **Digital Platform Role** | Integrated Portfolio, Brand Authority Hub, Video & Knowledge Library, Lead Generation Engine, Personal Brand Platform | `[CONFIRMED]` |
 
 ---
@@ -59,14 +59,14 @@ ERUM is not an ordinary finishing contractor or decorator. It operates at the in
                                   ▼
                    ┌─────────────────────────────┐
                    │  DESIGN → EXECUTION → REALITY │
-                   │  (No Gap Between 3D & Build)│
+                   │  (Aiming to Close the Gap)  │
                    └─────────────────────────────┘
 ```
 
 ### Strategic Differentiators
-1. **Closing the "Render vs. Reality" Gap:** Unlike design-only firms whose concepts prove unbuildable or contractors who cut corners on aesthetics, ERUM guarantees that what is designed in 3D is executed faithfully on-site.
-2. **Systematized Project Management:** Utilizing transparent Bills of Quantities (BOQs), structured scheduling, and milestone-based quality checks to remove client anxiety around budget overruns and delays.
-3. **Engineering Authority with Personal Mentorship:** Anchored by Engineer Abdelrahman’s approachable expertise, demystifying complex construction concepts for clients.
+1. **Closing the "Render vs. Reality" Gap:** Unlike design-only firms whose concepts prove unbuildable or contractors who cut corners on aesthetics, ERUM focuses on executing 3D designs faithfully on-site `[PROPOSED VALUE PROPOSITION - PENDING CLIENT CONFIRMATION]`.
+2. **Systematized Project Management:** Utilizing transparent Bills of Quantities (BOQs), structured scheduling, and milestone-based quality checks to address client concerns regarding budget overruns and delays `[PROPOSED PROCESS FRAMEWORK]`.
+3. **Engineering Authority with Personal Mentorship:** Anchored by Engineer Abdelrahman’s approachable expertise, demystifying complex construction concepts for clients `[PROPOSED BRAND PILLAR]`.
 
 ---
 
