@@ -1,16 +1,19 @@
 # ERUM Interior Studio — Projects Listing Figma Handoff (Provisional)
 
 **Status:** Provisional Figma UI Design & Handoff — client validation and asset approval pending.  
-**Figma Canvas Status:** `[PROPOSED]` / `[NOT YET IN FIGMA]`  
+**Figma Canvas Status:** `[IN FIGMA]` (Provisional design; client validation and asset approval pending).  
 **Scope:** Projects Listing page, desktop + mobile, Arabic RTL + English LTR.  
-**Important:** The Projects Listing page is NOT yet present on the live Figma canvas. This document serves as the handoff specification to construct page `04 — Projects Listing (Provisional)` in Figma. Keep unconfirmed elements visibly provisional.
+**Important:** The four responsive and bilingual frames for Projects Listing are present and verified in the live Figma file on page `04 — Projects Listing (Provisional)`. All imagery, project titles, locations, and copy remain provisional placeholders pending client review and asset approval. Keep unconfirmed elements visibly provisional.
 
 ## Existing Figma file
 - File: `ERUM Interior Studio — Phase 1 Design Foundations`
 - File key: `wcFiQnpI3crusgQPKJgPDB`
-- Existing actual pages: `01 — Foundations` `[IN FIGMA]`, `02 — Components` `[IN FIGMA]`, `03 — Homepage` `[IN FIGMA]`
-- Add an actual page named `04 — Projects Listing (Provisional)` when write access is available.
-- Reuse the existing components and visual language; do not create a second design system.
+- Verified actual pages:
+  - `01 — Foundations` `[IN FIGMA]`
+  - `02 — Components` `[IN FIGMA]`
+  - `03 — Homepage` `[IN FIGMA]`
+  - `04 — Projects Listing (Provisional)` `[IN FIGMA]` (Node `#2048:6640`)
+- Reused existing components and visual language; maintains brand consistency without divergent design systems.
 
 ## Temporary tokens (pending approval)
 - Navy `#203D73`; Midnight `#0E1B33`; Gold `#F5A000`; accessible gold `#B47100`
@@ -18,11 +21,11 @@
 - English font candidate: Plus Jakarta Sans; Arabic font candidate: Alexandria
 - Use existing variables/components when possible. Final logo, brand colors, fonts, and Arabic naming are unconfirmed.
 
-## Frames
-1. `Projects Listing / EN / Desktop` — 1440px
-2. `Projects Listing / AR / Desktop` — 1440px, intentional RTL
-3. `Projects Listing / EN / Mobile` — 390px
-4. `Projects Listing / AR / Mobile` — 390px, intentional RTL
+## Frames Verified in Figma `[IN FIGMA]`
+1. `Projects Listing / EN / Desktop` (Node `#2048:5503`) — 1440px
+2. `Projects Listing / AR / Desktop` (Node `#2048:5718`) — 1440px, intentional native RTL
+3. `Projects Listing / EN / Mobile` (Node `#2048:6105`) — 390px
+4. `Projects Listing / AR / Mobile` (Node `#2048:6332`) — 390px, intentional native RTL
 
 Use editable text, components, and Auto Layout; never use a flattened full-page screenshot as the deliverable.
 

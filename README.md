@@ -22,7 +22,7 @@
 - [Design system](docs/design/02_design_system.md) — UI tokens, components, RTL/LTR layout rules, and accessibility standards.
 - [Wireframes & page structure](docs/design/03_page_wireframes.md) — Structural architecture and wireframes across all 19 platform pages.
 - [Figma handoff](docs/design/04_figma_handoff.md) — Canvas state, component inventory, QA standards, and handoff guidelines.
-- [Projects Listing handoff](docs/design/05_projects_listing_handoff.md) — Provisional specification for the Projects Listing page.
+- [Projects Listing handoff](docs/design/05_projects_listing_handoff.md) — Provisional specification and handoff for the Projects Listing page (verified in Figma).
 
 ## Working principles
 - Figma is the source of truth for what is actually present on the canvas.
@@ -32,4 +32,4 @@
 - Do not implement the website until page designs, content rules and technical scope are sufficiently stable.
 
 ## Workflow
-Discovery/requirements → information architecture → brand/design specification → image inventory and provisional grouping → bilingual Figma UI → client validation and asset approval → development planning → implementation → QA → launch.
+Discovery/requirements → information architecture → brand/design specification → image inventory and provisional grouping → bilingual Figma UI (Foundations, Components, Homepage, Projects Listing) → client validation and asset approval → development planning → implementation → QA → launch.
