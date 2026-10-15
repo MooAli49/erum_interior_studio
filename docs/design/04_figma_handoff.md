@@ -45,19 +45,24 @@ The following eight principles are non-negotiable and must guide all Figma layou
 To avoid ambiguity between specification and implementation, the current state of the live Figma file is:
 
 ### Existing Verified Figma Pages `[IN FIGMA]`
-- `01 — Foundations` `[IN FIGMA]` — Design tokens (color variables, typography styles, elevation, grids).
-- `02 — Components` `[IN FIGMA]` — Component definitions (headers, footers, card patterns, inputs, buttons).
-- `03 — Homepage` `[IN FIGMA]` — Includes five verified frames:
-  - `Home / EN / Desktop` (1440px)
-  - `Home / EN / Mobile` (390px)
-  - `Home / AR / Desktop` (1440px, native RTL)
-  - `Home / AR / Mobile` (390px, native RTL)
-  - `Homepage / Handoff & approvals` (handoff notes frame)
+- `01 — Foundations` `[IN FIGMA]` (Node `#0:1`) — Design tokens (color variables, typography styles, elevation, grids). Frame: `01 — Foundations` (Node `#2004:28205`).
+- `02 — Components` `[IN FIGMA]` (Node `#2004:31535`) — Component definitions (headers, footers, card patterns, inputs, buttons). Frame: `02 — Components` (Node `#2004:28912`); Section: `ERUM — Native component definitions` (Node `#2004:31536`).
+- `03 — Homepage` `[IN FIGMA]` (Node `#2013:1568`) — Includes five verified frames:
+  - `Home / EN / Desktop` (Node `#2013:20544`, width: 1440px)
+  - `Home / EN / Mobile` (Node `#2013:20950`, width: 390px)
+  - `Home / AR / Desktop` (Node `#2013:21402`, width: 1440px, native RTL)
+  - `Home / AR / Mobile` (Node `#2013:21927`, width: 390px, native RTL)
+  - `Homepage / Handoff & approvals` (Node `#2013:22432`, width: 560px handoff notes frame)
+- `04 — Projects Listing (Provisional)` `[IN FIGMA]` (Node `#2048:6640`) — Includes four verified frames:
+  - `Projects Listing / EN / Desktop` (Node `#2048:5503`, width: 1440px)
+  - `Projects Listing / AR / Desktop` (Node `#2048:5718`, width: 1440px, native RTL)
+  - `Projects Listing / EN / Mobile` (Node `#2048:6105`, width: 390px)
+  - `Projects Listing / AR / Mobile` (Node `#2048:6332`, width: 390px, native RTL)
+  - Detailed companion specification: [Projects Listing Figma Handoff](05_projects_listing_handoff.md).
 
 ### Next Intended Design Page `[PROPOSED]` / `[NOT YET IN FIGMA]`
-- `04 — Projects Listing (Provisional)` `[NOT YET IN FIGMA]`
-  - Detailed companion specification: [Projects Listing Figma Handoff](05_projects_listing_handoff.md).
-  - Do not claim that this page or any subsequent page has already been built until verified in the live Figma file.
+- `05 — Project Details & Case Study Template (Provisional)` `[NOT YET IN FIGMA]` (Page 3 in Wireframe Architecture; proposed route: `/projects/[slug]` — proposed route only, not a confirmed implementation).
+  - Do not claim that this page or any subsequent page has already been built until verified on the live Figma canvas.
 
 ---
 
@@ -162,8 +167,8 @@ All 19 pages specified in [Wireframes & Page Structure](03_page_wireframes.md) m
 | # | Priority Tier | Page Name | Page Slug | Core Focus | Current Figma Status |
 | :- | :--- | :--- | :--- | :--- | :--- |
 | 1 | **Tier 1 (Core)** | **Home** | `/` | Brand triad, flagship project proof, Render vs. Reality, Process overview, Founder authority, primary lead driver. | `[CONFIRMED SCOPE / IN FIGMA]` |
-| 2 | | **Projects Listing** | `/projects` | Filterable portfolio matrix (Type, Scope, Render vs. Reality toggle). | `[CONFIRMED SCOPE / PROPOSED - NOT YET IN FIGMA]` |
-| 3 | | **Project Details** | `/projects/[slug]` | Modular case study template with conditional gallery rendering. | `[CONFIRMED SCOPE / NOT YET IN FIGMA]` |
+| 2 | | **Projects Listing** | `/projects` | Filterable portfolio matrix (Type, Scope, Render vs. Reality toggle). | `[CONFIRMED SCOPE / PROVISIONAL DESIGN - IN FIGMA]` |
+| 3 | | **Project Details & Case Study Template** | `/projects/[slug]` *(proposed route)* | Modular case study template with conditional gallery rendering. | `[CONFIRMED SCOPE / NOT YET IN FIGMA]` |
 | 4 | | **Services Listing** | `/services` | Service discipline showcase (Design, Execution, Project Management [CONFIRMED]; Specific service packages [PROPOSED]). | `[PENDING CONFIRMATION / NOT YET IN FIGMA]` |
 | 5 | | **Service Details** | `/services/[slug]` | Deep-dive scope, deliverables checklist, and pre-filtered related projects. | `[PROPOSED TEMPLATE / NOT YET IN FIGMA]` |
 | 6 | | **Start Your Project** | `/start-project` | 3-step lead onboarding form, budget tiers, and configurable floorplan dropzone. | `[PROPOSED WIZARD / NOT YET IN FIGMA]` |
@@ -205,7 +210,7 @@ To avoid design ambiguity across the content platform, designers must distinguis
    ├── Final CTA Banner (Midnight navy background)
    └── Footer (Global)
 
-2. PROJECTS LISTING [PROPOSED / NOT YET IN FIGMA]
+2. PROJECTS LISTING [PROVISIONAL DESIGN - IN FIGMA]
    ├── Header & Breadcrumbs
    ├── Title & Horizontal Filter Bar (Type, Scope, Render vs Reality toggle)
    ├── Project Grid (3-column desktop / 1-column mobile)
@@ -213,7 +218,7 @@ To avoid design ambiguity across the content platform, designers must distinguis
    ├── Inquiries CTA Banner
    └── Footer
 
-3. PROJECT DETAILS (Modular Case Study Template)
+3. PROJECT DETAILS & CASE STUDY TEMPLATE [PROPOSED / NOT YET IN FIGMA] (Modular Case Study Template — Proposed Route: /projects/[slug])
    ├── Header & Breadcrumbs
    ├── Project Hero & Metadata Bar (Name, Location, Area m², Scope, Year)
    ├── Design Concept & Spatial Solution
@@ -583,22 +588,23 @@ Step 02: Shared Component Library [IN FIGMA] (Header, footer, cards, form inputs
    ↓
 Step 03: Homepage [IN FIGMA] (Desktop & Mobile EN/AR, establishing core brand atmosphere)
    ↓
-Step 04: Projects Listing & Project Details [CURRENT NEXT STEP - PROPOSED / NOT YET IN FIGMA]
-         (See docs/design/05_projects_listing_handoff.md for companion specification)
+Step 04: Projects Listing [IN FIGMA - PROVISIONAL] (4 responsive bilingual frames verified; see docs/design/05_projects_listing_handoff.md)
    ↓
-Step 05: Services Listing & Service Details
+Step 05: Project Details & Case Study Template [CURRENT NEXT STEP - PROPOSED / NOT YET IN FIGMA]
    ↓
-Step 06: Knowledge Hub, Article Details, Video Library & Video Details
+Step 06: Services Listing & Service Details
    ↓
-Step 07: Lead Generation ("Start Your Project") & Contact Page
+Step 07: Knowledge Hub, Article Details, Video Library & Video Details
    ↓
-Step 08: Remaining Pages (About, Meet The Engineer, Process, Search, 404, Legal)
+Step 08: Lead Generation ("Start Your Project") & Contact Page
    ↓
-Step 09: Responsive Layouts (Tablet 834px & Mobile 390px edge cases)
+Step 09: Remaining Pages (About, Meet The Engineer, Process, Search, 404, Legal)
    ↓
-Step 10: Full Arabic (RTL) Layout Review (Typography balance & alignment symmetry)
+Step 10: Responsive Layouts (Tablet 834px & Mobile 390px edge cases)
    ↓
-Step 11: Final Design QA & Client Sign-off (Replacing placeholders with approved assets)
+Step 11: Full Arabic (RTL) Layout Review (Typography balance & alignment symmetry)
+   ↓
+Step 12: Final Design QA & Client Sign-off (Replacing placeholders with approved assets)
 ```
 
 ---

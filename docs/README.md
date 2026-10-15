@@ -26,10 +26,10 @@
 8. [Design System Specification](design/02_design_system.md) — UI tokens, components, RTL/LTR layout rules, and accessibility standards.
 9. [Wireframes & Page Structure](design/03_page_wireframes.md) — Structural architecture and wireframes across all 19 platform pages.
 10. [Figma Design Handoff](design/04_figma_handoff.md) — Canvas state, component inventory, QA standards, and handoff guidelines.
-11. [Projects Listing Figma Handoff](design/05_projects_listing_handoff.md) — Provisional specification for the Projects Listing page.
+11. [Projects Listing Figma Handoff](design/05_projects_listing_handoff.md) — Provisional specification and handoff for the Projects Listing page (verified in Figma).
 
 ## Workflow
-Discovery/requirements → information architecture → brand/design specification → image inventory and provisional grouping → bilingual Figma UI → client validation and asset approval → development planning → implementation → QA → launch.
+Discovery/requirements → information architecture → brand/design specification → image inventory and provisional grouping → bilingual Figma UI (Foundations, Components, Homepage, Projects Listing) → client validation and asset approval → development planning → implementation → QA → launch.
 
 ## Current Figma file
 [ERUM Interior Studio — Phase 1 Design Foundations](https://www.figma.com/design/wcFiQnpI3crusgQPKJgPDB/ERUM-Interior-Studio-%E2%80%94-Phase-1-Design-Foundations?node-id=2013-1568)
