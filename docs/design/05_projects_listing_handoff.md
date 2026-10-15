@@ -1,13 +1,14 @@
 # ERUM Interior Studio — Projects Listing Figma Handoff (Provisional)
 
 **Status:** Provisional Figma UI Design & Handoff — client validation and asset approval pending.  
+**Figma Canvas Status:** `[PROPOSED]` / `[NOT YET IN FIGMA]`  
 **Scope:** Projects Listing page, desktop + mobile, Arabic RTL + English LTR.  
-**Important:** This is a design specification, not confirmation that the design has been written into Figma. Keep unconfirmed elements visibly provisional.
+**Important:** The Projects Listing page is NOT yet present on the live Figma canvas. This document serves as the handoff specification to construct page `04 — Projects Listing (Provisional)` in Figma. Keep unconfirmed elements visibly provisional.
 
 ## Existing Figma file
 - File: `ERUM Interior Studio — Phase 1 Design Foundations`
 - File key: `wcFiQnpI3crusgQPKJgPDB`
-- Existing actual pages: `01 — Foundations`, `02 — Components`, `03 — Homepage`
+- Existing actual pages: `01 — Foundations` `[IN FIGMA]`, `02 — Components` `[IN FIGMA]`, `03 — Homepage` `[IN FIGMA]`
 - Add an actual page named `04 — Projects Listing (Provisional)` when write access is available.
 - Reuse the existing components and visual language; do not create a second design system.
 
@@ -46,9 +47,7 @@ Use editable text, components, and Auto Layout; never use a flattened full-page 
 11. Existing footer component. Do not invent phone/email/address/hours/social links.
 
 ## Asset status
-The supplied archive contains 309 images across 10 folders. The visible ERUM logo is the client's company logo (confirmed by the user). Do not treat folder names as proof of project identity. Keep temporary internal IDs like `RES-CAND-01` and `COM-CAND-01` until official names are confirmed. Do not claim completed execution or use “Render vs Reality” unless confirmed. Keep image type `Unknown` until verified. Use neutral placeholders until image groups, quality, permission, render/photo status, and ERUM's scope are confirmed.
-
-Likely commercial folders to verify: `barber_shop` (8), `beauty_center` (23), `c_bolt` (14), `fruto` (37), `islamco` (22), `jewelry_shop` (20). Residential/unsorted folders: `New folder` (50), `New folder (2)` (100), `New folder (3)` (24), `kitchen` (11). One folder may contain multiple projects; different folders may contain one project.
+The supplied archive contains 309 images across 10 folders (canonical working inventory documented in [Asset Checklist](../04_asset_checklist.md)). The visible ERUM logo is the client's company logo (confirmed by maintainer). Do not treat folder names as proof of project identity. Keep temporary internal candidate IDs like `RES-CAND-01` and `COM-CAND-01` until official names are confirmed. Do not claim completed execution or use “Render vs Reality” unless confirmed. Keep image type `Unknown` until verified. Use neutral placeholders until image groups, quality, permission, render/photo status, and ERUM's scope are confirmed.
 
 ## Accessibility / QA
 - Minimum mobile target: 44px; visible focus state; keyboard order.
