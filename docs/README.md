@@ -1,49 +1,38 @@
 # ERUM Website Documentation Index
 
-## Project State
-**Current Phase:** Design Specification & Figma Handoff (Pending Client Validation & Asset Collection)
+## Project state
+**Current phase:** Provisional Figma UI Design & Handoff — client validation and asset approval pending.
 
----
+## Source-of-truth rules
+- Live Figma file is the source of truth for current visual frames and components.
+- The Markdown documents specify requirements, direction and handoff constraints.
+- `docs/05_open_questions.md` is the canonical register of unresolved client decisions.
+- `docs/04_asset_checklist.md` is the canonical asset status checklist.
+- Image manifests and contact sheets are review aids, not approved content.
+- Keep internal candidate IDs separate from official project names.
+- Never infer that a design frame or an asset is complete from a document alone.
 
-## Documentation Structure
-
-### 1. Discovery & Strategy
+## Documentation
+### Discovery and strategy
 1. [Project Overview](00_project_overview.md) — Strategic goals, positioning, and core business journey.
 2. [Requirements](01_requirements.md) — Comprehensive technical, functional, SEO, and CMS requirements.
 3. [Information Architecture](02_information_architecture.md) — Sitemap, navigation structures, and content relationship graph.
 4. [Knowledge & Content Hub](03_content_hub.md) — Video library, articles, Engineer's Advice, and content repurposing models.
-5. [Asset Checklist](04_asset_checklist.md) — Asset collection priorities and quality specifications.
-6. [Open Questions & Decisions](05_open_questions.md) — Unresolved client decisions and tracking registry.
+5. [Asset Checklist](04_asset_checklist.md) — Working asset inventory, candidate folder review, and client approval checklist.
+6. [Open Questions & Decisions](05_open_questions.md) — Canonical decision register and tracking checklist.
 
-### 2. Design & Brand System
-7. [Brand Foundation](design/01_brand_foundation.md) — Brand positioning, personality, visual direction, preliminary color palette, typography candidates, photography art direction, and client validation checklist.
-8. [Design System Specification](design/02_design_system.md) — Comprehensive UI tokens (colors, typography, spacing, radius, shadows), component states, card patterns, form controls, navigation, RTL/LTR layout rules, and accessibility standards.
-9. [Wireframes & Page Structure](design/03_page_wireframes.md) — Structural architecture, section hierarchies, responsive wireframes, modular templates, and user flows across all 19 platform pages.
-10. [Figma Design Handoff](design/04_figma_handoff.md) — UI design specifications, reusable component inventory, viewport frames, 11-step design sequence, and frontend handoff guidelines.
+### Brand and design system
+7. [Brand Foundation](design/01_brand_foundation.md) — Brand positioning, visual direction, preliminary color palette, and typography candidates.
+8. [Design System Specification](design/02_design_system.md) — UI tokens, components, RTL/LTR layout rules, and accessibility standards.
+9. [Wireframes & Page Structure](design/03_page_wireframes.md) — Structural architecture and wireframes across all 19 platform pages.
+10. [Figma Design Handoff](design/04_figma_handoff.md) — Canvas state, component inventory, QA standards, and handoff guidelines.
+11. [Projects Listing Figma Handoff](design/05_projects_listing_handoff.md) — Provisional specification for the Projects Listing page.
 
----
+## Workflow
+Discovery/requirements → information architecture → brand/design specification → image inventory and provisional grouping → bilingual Figma UI → client validation and asset approval → development planning → implementation → QA → launch.
 
-## Workflow Progression
+## Current Figma file
+[ERUM Interior Studio — Phase 1 Design Foundations](https://www.figma.com/design/wcFiQnpI3crusgQPKJgPDB/ERUM-Interior-Studio-%E2%80%94-Phase-1-Design-Foundations?node-id=2013-1568)
 
-```text
-Discovery & Requirements (Complete)
-       ↓
-Information Architecture & Content Hub (Complete)
-       ↓
-Brand Foundation & Design System Specification (Complete)
-       ↓
-Wireframing & Page Structure Specification (Complete)
-       ↓
-Figma Handoff Specification (Current Phase - Complete)
-       ↓
-Client Validation & Asset Collection (In Progress - Pending Client Approval)
-       ↓
-Figma High-Fidelity UI Design (Bilingual AR/EN)
-       ↓
-Frontend & CMS Technical Stack Finalization
-       ↓
-Implementation & Testing
-       ↓
-Production Launch & SEO Handover
-```
-
+## Current limitations
+The project is still design/documentation only. Do not add implementation code or mark provisional assets/design decisions as client-approved.

@@ -1,91 +1,68 @@
-# ERUM Website --- Open Questions & Decisions
+# ERUM Website — Open Questions & Decisions
 
-This file tracks information that is not finalized yet.
+This is the canonical single source of truth for unresolved client decisions. Items may be designed around using explicit placeholders, but must not be presented as confirmed facts.
 
-## Brand
+## Current phase
 
--   [ ] Confirm official brand name
--   [ ] Confirm final brand colors
--   [ ] Confirm official fonts
--   [ ] Provide original logo files
--   [ ] Confirm whether current social media visual style should be
-    preserved or refined
+**Current phase:** Provisional Figma UI Design & Handoff — client validation and asset approval pending.  
+Figma: [ERUM Interior Studio — Phase 1 Design Foundations](https://www.figma.com/design/wcFiQnpI3crusgQPKJgPDB/ERUM-Interior-Studio-%E2%80%94-Phase-1-Design-Foundations?node-id=2013-1568)
 
-## Business
+## P0 — Needed before replacing design placeholders
 
--   [ ] Final service list
--   [ ] Final areas/cities served
--   [ ] Target customer segments
--   [ ] Main differentiators
--   [ ] Official company description
+### Brand
+- [ ] Confirm official English name and official Arabic spelling.
+- [ ] Provide/approve vector logo (SVG preferred), light/dark variants and clear-space requirements.
+- [ ] Approve final brand colors.
+- [ ] Approve English and Arabic typefaces.
+- [ ] Decide whether current social style should be preserved or refined.
 
-## Projects
+### Projects and supplied imagery
+- [ ] Confirm which images belong to each real project; do not assume a source folder equals one project.
+- [ ] Confirm official project title and public location where applicable.
+- [ ] Confirm whether each image is a render, construction photo, completed-space photo, moodboard, plan, or unknown.
+- [ ] Confirm ERUM's exact role per project: design, execution, project management, or another scope.
+- [ ] Confirm permission to publish photography, floor plans, videos, and any visible people.
+- [ ] Select the final top three Homepage projects and initial portfolio entries.
+- [ ] Confirm same-project matching before using a concept/reality pair.
 
--   [ ] Top 3 projects
--   [ ] Initial 10--15 projects
--   [ ] Project metadata
--   [ ] Available project assets
--   [ ] Permission to publish project images
+### Contact and CTA
+- [ ] Confirm official phone and WhatsApp; existing social assets appear to contain more than one number.
+- [ ] Confirm email, public address, Google Maps location and working hours.
+- [ ] Confirm main CTA destination and lead-notification workflow.
 
-## Engineer
+## P1 — Needed before final content and information architecture
 
--   [ ] Official English name
--   [ ] Official Arabic name
--   [ ] Professional title
--   [ ] Bio
--   [ ] Education/certifications
--   [ ] Personal brand direction
+### Business
+- [ ] Confirm service list and deliverables. Interior Design, Turnkey Execution and Project Management are core proposals; Custom Furniture and Exterior Design need confirmation as separate categories.
+- [ ] Confirm cities/areas served.
+- [ ] Confirm target audiences and differentiators.
+- [ ] Approve official company description and engineer bio/credentials.
 
-## Contact
+### Project listing
+- [ ] Confirm first published project count.
+- [ ] Confirm categories (currently proposed: Residential and Commercial; other categories only if supported by approved projects).
+- [ ] Confirm pagination vs Load More.
+- [ ] Confirm what the `islamco` source folder represents and its public name.
+- [ ] Confirm whether `beauty_center` is one project or multiple spaces.
+- [ ] Confirm relationship of the `kitchen` group to other residential images.
+- [ ] Confirm metadata fields to show on cards and project details pages.
 
--   [ ] Official phone number
--   [ ] Official WhatsApp
--   [ ] Official email
--   [ ] Official address
--   [ ] Google Maps location
--   [ ] Working hours
+### Content
+- [ ] Approve Arabic and English headlines and service copy.
+- [ ] Confirm available video inventory, articles, FAQs and testimonials.
+- [ ] Confirm whether testimonials and team information may be published.
+- [ ] Collect three preferred and three disliked website references, plus three words describing ERUM.
 
-## Content
+## P2 — Needed before implementation and launch
+- [ ] Confirm domain, hosting, CMS/editor needs and existing website status.
+- [ ] Confirm image hosting/CDN and video hosting strategy.
+- [ ] Confirm analytics, Search Console, Tag Manager, Meta Pixel and Google Business Profile needs.
+- [ ] Confirm CRM integration scope and form privacy/consent copy.
+- [ ] Confirm privacy/terms/legal content, backup policy and maintenance agreement.
 
--   [ ] Existing video inventory
--   [ ] Existing articles
--   [ ] Testimonials
--   [ ] FAQs
--   [ ] Team information
-
-## Design References
-
--   [ ] 3 liked websites
--   [ ] 3 disliked websites
--   [ ] 3 words describing ERUM
-
-## Technical
-
--   [ ] Domain ownership
--   [ ] Hosting
--   [ ] Existing website, if any
--   [ ] Analytics accounts
--   [ ] Search Console
--   [ ] Tag Manager
--   [ ] Meta Pixel
--   [ ] Google Business Profile
-
-## Product Decisions Still To Be Made
-
--   [ ] CMS technology
--   [ ] Video hosting strategy
--   [ ] Image/CDN strategy
--   [ ] Exact lead notification workflow
--   [ ] CRM integration scope
--   [ ] Backup policy
--   [ ] Maintenance agreement
--   [ ] Privacy / legal content
-
-## Status
-
-Current state:
-
-**Discovery / Requirements Collection**
-
-Do not start final UI design until the high-priority brand and content
-questions are sufficiently resolved.
+## Design rules while answers are pending
+- Use editable neutral placeholders labelled as pending; never invent names, dates, locations, metrics, awards, credentials, testimonials or promises.
+- Keep proposed palette and typography provisional until approved.
+- Do not claim a project was executed by ERUM unless the client confirms the scope.
+- Do not present a render as a photograph or a concept/reality comparison without verification.
+- Keep asset approval status Pending until grouping, usage rights and final asset selection are confirmed.

@@ -1,0 +1,7 @@
+# Image source archives and review exports
+images/erum_projects/
+*.zip
+
+# OS / Editor artifacts
+.DS_Store
+Thumbs.db

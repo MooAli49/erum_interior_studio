@@ -1,6 +1,6 @@
 # ERUM Interior Studio — Brand Foundation
 
-> **Document Status:** Planning & Specification (Phase: Visual Direction & Design System)  
+> **Document Status:** Provisional Figma UI Design & Handoff — client validation and asset approval pending.  
 > **Target Audience:** Design Team, Development Team, and Client Stakeholders  
 > **Classification Key:**  
 > - `[CONFIRMED]`: Verified requirement or asset from existing documentation.  

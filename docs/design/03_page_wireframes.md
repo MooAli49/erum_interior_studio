@@ -1,6 +1,6 @@
 # ERUM Interior Studio — Wireframes & Page Structure Specification
 
-> **Document Status:** Planning & Wireframing (Phase 2: Wireframing and Page Structure)  
+> **Document Status:** Provisional Figma UI Design & Handoff — client validation and asset approval pending.  
 > **Target Audience:** UX Designers, Information Architects, Copywriters, Frontend Engineers, and Client Stakeholders  
 > **Classification Key:**  
 > - `[CONFIRMED]`: Established in project requirements or client agreements.  

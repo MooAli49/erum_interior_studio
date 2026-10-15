@@ -1,6 +1,6 @@
 # ERUM Interior Studio — Design System Specification
 
-> **Document Status:** Planning & Specification (Phase: Visual Direction & Design System)  
+> **Document Status:** Provisional Figma UI Design & Handoff — client validation and asset approval pending.  
 > **Target Audience:** UI/UX Designers, Frontend Architects, Content Editors, and QA Engineers  
 > **Classification Key:**  
 > - `[CONFIRMED]`: Verified requirement or architectural standard.  
